@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 공백으로 구분하여(구분되지 않아야 문제가 풀림) 
+      두 숫자 a와 b가 주어지면,
+   a의 b승을 구하는 프로그램을 작성하세요. -->
+
+    <script>
+      const n = prompt("두개의 숫자를 입력하세요.").split("");
+
+      console.log(Math.pow(parseInt(n[0], 10), parseInt(n[1], 10)));
+
+      //splice
+      //문자열을 쪼개서 배열에 담는다.
+      var str = "html,css,javascript,jquery,apache,php";
+      str.split(","); //배열 [html,css,javascript,jquery,apache,php]
+      console.log(str);
+
+      //Math.pow(a,n)
+      //거듭제곱을 리턴한다.
+      //a의 n승
+    </script>
+  </body>
+</html>
